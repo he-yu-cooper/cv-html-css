@@ -1,0 +1,97 @@
+header {
+    color: #444444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info {
+    border-style: solid;
+    width: 300px;
+    height: 120px;
+}
+
+img.naruto {
+    float: right;
+    margin: 15px;
+}
+
+body,
+html {
+    background: rgba(255, 114, 96, 1);
+    background: linear-gradient(360deg,
+            rgba(255, 114, 96, 1) 0%,
+            rgba(255, 114, 96, 1) 14%,
+            rgba(252, 210, 113, 1) 54%,
+            rgba(252, 210, 113, 1) 61%,
+            rgba(102, 176, 102, 1) 93%,
+            rgba(96, 135, 134, 1) 100%);
+}
+
+img.OIP {
+    float: left;
+    border-style: solid;
+    border-color: #444444;
+}
+
+img.etudes {
+    float: right;
+    border-style: dashed;
+}
+
+#box_1 {
+    width: 800px;
+    height: 200px;
+    border: #444444 solid;
+    overflow: scroll;
+}
+
+.op {
+    display: flex;
+    justify-content: center;
+
+}
+
+img.b {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.objectp {
+    display: flex;
+    justify-content: center;
+}
+
+.lan {
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 0 2px 2px grey;
+    margin: 20px 0 0 30px;
+    font: italic;
+}
+
+.button-1 {
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-2 {
+    background-color: cadetblue;
+    color: beige;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-3 {
+    background-color: #444444;
+    color: aliceblue;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
